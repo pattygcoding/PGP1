@@ -8,7 +8,7 @@ void option1(vector<int> digits)
         else if(i % 10 == 0) cout << " " << digits.at(i);
         else cout << digits.at(i);
     }
-    cout << "\nDisplaying " << digits.size() << " digits." << endl;
+    cout << "\nDisplaying " << digits.size() << " numbers." << endl;
 }
 
 void option2(vector<int> digits)
